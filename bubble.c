@@ -31,13 +31,13 @@ main()
         cout<<"Enter the integer elements"<<endl;       
         for(i=0;i<n;i++) 
                 cin>>a[i]; 
-        bubble(a,n);            //Bubble sort for integer data type 
+        bubble(a,n);            
         cout<<"Enter the number of char elements in array"<<endl; 
         cin>>m; 
         cout<<"Enter the char elements"<<endl;          
                 for(i=0;i<m;i++) 
                         cin>>b[i]; 
-        bubble(b,m);            //Bubble sort for char data type 
+        bubble(b,m);            
         cout<<"Enter the number of floating type elements in array"<<endl; 
         cin>>p; 
         cout<<"Enter the floating type elements"<<endl; 
