@@ -3,11 +3,11 @@ using namespace std;
 class Time 
 { 
 private:int hr,min,sec; 
-public: Time()                           //default constructors 
+public: Time()                           
         { 
         hr=min=sec=0; 
         } 
-        Time(int a,int b,int c):hr(a),min(b),sec(c)         //parameterized constructors 
+        Time(int a,int b,int c):hr(a),min(b),sec(c)        
         { 
         } 
         void input() 
@@ -15,7 +15,7 @@ public: Time()                           //default constructors
         cout<<"Enter time in hours minutes and seconds"<<endl; 
         cin>>hr>>min>>sec; 
         } 
-        void add(Time t1,Time t2)            //passing objects as parameters 
+        void add(Time t1,Time t2)           
         { 
         sec=t1.sec+t2.sec; 
         min=sec/60; 
