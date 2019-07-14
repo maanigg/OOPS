@@ -3,7 +3,7 @@ using namespace std;
 class emp 
 { 
 private:int empno,basic,allowance,it,net,gross; 
-        char name[25];                                     //variable declarations 
+        char name[25];                                    
 public: void input() 
         { 
         cout<<"Enter employee number"<<endl; 
@@ -32,7 +32,7 @@ public: void input()
 }; 
 main() 
 { 
-emp e[10];                 //array of objects 
+emp e[10];                
 int n,i; 
 cout<<"Enter the no. of employess\n"; 
 cin>>n; 
