@@ -8,17 +8,17 @@ public: void input()
         cout<<"Enter real and img part"<<endl; 
         cin>>real>>img; 
         } 
-        friend void add(comp c1,comp c2);             //friend functions 
+        friend void add(comp c1,comp c2);             
         friend void multi(comp c1,comp c2); 
 }; 
-        void add(comp c1,comp c2)               //passing objects as parameters 
+        void add(comp c1,comp c2)               
         { 
         float real,img; 
         real=c1.real+c2.real; 
         img=c1.img+c2.img; 
         cout<<"Sum = "<<real<<"+"<<img<<"i"<<endl; 
         } 
-        void multi(comp c1,comp c2)          //passing objects as parameters 
+        void multi(comp c1,comp c2)         
         { 
         float real,img; 
         real=c1.real*c2.real-c1.img*c2.img; 
@@ -27,7 +27,7 @@ public: void input()
         } 
 int main() 
 { 
-comp c1,c2,c3;             //objeect declarations 
+comp c1,c2,c3;              
 cout<<"Enter 1st complex number"<<endl; 
 c1.input(); 
 cout<<"Enter 2nd complex number"<<endl; 
